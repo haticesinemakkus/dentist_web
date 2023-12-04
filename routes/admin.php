@@ -38,7 +38,7 @@ Route::group(['prefix' => '/', 'middleware' => ['auth:admin']], function() {
     Route::group(['prefix' => '/admin'], function() {
         Route::any('/', [AdminController::class, 'list'])->name('panel.admin_list');
         Route::get('/form/{unique?}', [AdminController::class, 'form'])->name('panel.admin_form');
-        Route::post('/form/{unique?}', [AdminController::class, 'save'])->name('panel.admin_save');
+        Route::post('/form/{unique?}', [AdminController::class, 'saveForm'])->name('panel.admin_save');
         Route::delete('/delete', [AdminController::class, 'delete'])->name('panel.admin_delete');
     });
 
