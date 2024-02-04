@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className={'w-full 2xl:-[1350px] h-[2px] md:mt-[30px] mt-[20px] bg-black'}></div>
                 <div className={'w-full mt-[20px] md:my-[20px]   flex flex-col  mb-6 md:flex-row justify-between items-center'}>
-                    <h1 className={'text-sm lg:w-[500px] w-[270px] text-center md:w-full flex justify-start items-center'}>Tüm hakları saklıdır ® quarysoftware.dev | Şartlar ve koşullar geçerlidir!</h1>
+                    <h1 className={'text-sm lg:w-[500px] w-[270px] text-center md:w-full flex justify-start items-center'}>Tüm hakları saklıdır ® Quarry Software Dev | Şartlar ve koşullar geçerlidir!</h1>
                     <div className={'flex flex-row gap-5 md:m-0 mt-6 lg:gap-4  '}>
                         <img className={'w-[25px] cursor-pointer'} src={facebook} alt=""/>
                         <img className={'w-[25px] cursor-pointer'} src={instagram} alt=""/>

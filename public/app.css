@@ -189,7 +189,7 @@
 
 .xsd{
     animation-fill-mode: both;
-    animation: rotate 2s ease-in-out infinite;
+    animation: rotate 5s ease-in-out infinite;
 }
 @keyframes rotate {
     from {

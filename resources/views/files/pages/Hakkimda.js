@@ -122,12 +122,17 @@ const Hakkimda = () => {
                             <div className={'flex flex-col justify-start items-center'}>
                                 <div className={'sm:w-fit w-[310px] text-center  text-xl font2'}>Diş Hekimliğinin Geleceği Dijitaldir:</div>
                                 <h2 className={'text-lg lg:w-[450px] w-[320px] sm:w-[500px] xl:w-[650px] flex flex-col gap-[25px] mt-[15px]  text-text2 font10 text'}>
-                                    Dentists today already utilize software to capture insights in clinical decision-making. These practices will continue to develop to integrate AI algorithms that enable clinicians to find the best modalities for their patients.
+                                    Dijital diş hekimliği, diş hekimliğinde geleneksel yöntemlerle yapılan işlemlerin bilgisayar desteği ile tasarım ve üretimine olanak tanıyan bir sistemdir.
+                                    Diş hekimliğinde geleneksel yöntemler yerine bilgisayar teknolojisinden destek almanın çok sayıda avantajı vardır.
+                                    İşlem süresi oldukça kısalmıştır. Ölçü alma işlemi 3-4 dakika içinde gerçekleşmektedir. Dişler aynı gün içerisinde hazırlanabildiğinden, tedavi de aynı gün tamamlanabilmektedir.
                                     <h2>
-                                        In the 21st century, digital radiographs and 3D imaging have become the standard of dental care. Using an intraoral scanner with digitized data for 3D dental impressions (vs. polyvinyl siloxane and rubber base impressions) for a dental crown is now commonplace.
+                                        Ölçü alma ve tasarım aşamaları hastalar açısından daha konforlu hale gelmiştir.
+                                        Öğürme refleksi ve mide bulantısı olan hasta grubunda güvenli bir şekilde kullanılabilir.
+                                        Hata ihtimali azaltılmış olur.
                                     </h2>
                                     <h2>
-                                        Artificial intelligence is laying the groundwork for the future of the dental industry. Dental robots can now perform functions such as filling cavities and cleaning or extracting teeth
+                                        Dijital ortama aktarılan görüntüler; üzerinde istediğimiz şekilde ölçüm, tasarım ve değişiklik yapmamıza olanak tanır. Tasarlanan dişlerde aşındırma, ekleme, kontak nokta kontrolleri, kontur değişiklikleri yaparak dişlerin olası bitmiş halini önceden elde edebilmekteyiz.
+                                        Dilersek bu tasarlanan dişlerin ağız içindeki görüntülerini, hastanın profil görüntüleri ile birleştirerek, işlem sonrası hastalarımızın nasıl bir gülüş elde edebileceğini önceden gösterebilmekteyiz.
                                     </h2>
                                 </h2>
 

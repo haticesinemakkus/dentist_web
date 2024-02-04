@@ -133,16 +133,16 @@ const Anasayfa = (props) => {
                 <div className={'break-words flex flex-col 2xl:text-6xl xl:text-5xl  md:text-5xl sm:text-5xl text-3xl lg:text-4xl'}>
                     <h2 className={'font1 flex flex-col justify-center items-center'}>
                         <span className={''}>
-                            Nazik Hekimler Hızlı ve
+                            Gamadent Ağız ve 
                         </span>
                         <span>
-                            Etkili Sonuçlar Doğurur!
+                            Diş Sağlığı Polikiniği
                         </span>
 
                     </h2>
                     <div className={'w-full flex justify-center items-center'}>
                         <span className={'font4 flex justify-center items-center text-sm w-[330px] sm:w-[530px] md:w-[530px] mt-[30px] sm:text-base  md:text-lg lg:w-[400px] 2xl:w-[670px] xl:w-[530px] !break-words'}>
-                            We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself.
+                            İleri teknoloji tedavi yöntemlerimiz, kişiye özel çözüm önerilerimiz ve enerji dolu kadromuzla sağlıklı gülümsemeler yaratmaya hazırız.
                         </span>
                     </div>
                     <div className={'flex md:flex-col flex-col lg:flex-row gap-[24px] justify-start items-center mt-[20px]'}>
@@ -167,7 +167,7 @@ const Anasayfa = (props) => {
                             </div>
                         </a>
                     </div>
-                    <div className={'xl:w-[374px] sm:w-[430px] lg:w-[300px] w-[330px] h-[200px] md:w-[374px] sm:h-[170px] xl:h-[125px] md:h-[115px] lg:h-[115px] relative gap-[8px] p-[20px] md:mt-[40px] lg:mt-[60px]  flex justify-start items-start flex-col bg2'}>
+                    {/* <div className={'xl:w-[374px] sm:w-[430px] lg:w-[300px] w-[330px] h-[200px] md:w-[374px] sm:h-[170px] xl:h-[125px] md:h-[115px] lg:h-[115px] relative gap-[8px] p-[20px] md:mt-[40px] lg:mt-[60px]  flex justify-start items-start flex-col bg2'}>
                         <div className={'flex flex-row gap-2 cursor-pointer'}>
                             <img className={'xl:w-[41px] w-[65px] h-[65px] lg:w-[30px] md:w-[35px] md:h-[35px] lg:h-[30px] xl:h-[41px]'} src={ornekfoto} alt="" />
                             <div className={'flex flex-col justify-center'}>
@@ -179,7 +179,7 @@ const Anasayfa = (props) => {
                             Top Quailty dental treatment done by field experts, Highly Recommended for everyone
                         </div>
                         <img className={'top-5 w-[70px] md:w-fit  right-5 absolute'} src={plusone} alt="" />
-                    </div>
+                    </div> */}
                 </div>
                 <div className={'relative 2xl:m-0   lg:m-0 mt-[50px] mr-16 sm:mt-[50px] md:mt-[50px] md:mr-0 sm:mr-24'}>
                     <img className={'z-20 relative 2xl:w-[550px] xl:w-[450px] lg:w-[300px] md:w-[400px] w-[320px]'} src={dentist} alt="" />
@@ -212,7 +212,7 @@ const Anasayfa = (props) => {
                     <div className={'flex flex-col 2xl:w-[800px]  xl:w-[500px] lg:w-[450px] md:w-[350px] sm:w-[350px] w-[330px]'}>
                         <h1 className={' whitespace-pre-wrap 2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl md:text-2xl font6 break-words'}>Yeni Hastalara Hoş Geldiniz Diyoruz ve Sizinle Tanışmak İçin Sabırsızlanıyoruz!</h1>
                         <h2 className={'font4 text-[#3C4959] mt-12 text-lg 2xl:text-xl whitespace-pre-wrap break-words'}>
-                            We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself.
+                            Sahip olduğumuz mesleki tecrübe ve gelecek vizyonumuzu, hizmet enerjimiz ile bütünleştiriyoruz.
                         </h2>
                         <div className={'sm:w-[350px] w-[320px]  h-[55px] overflow-hidden relative mt-[40px] extra1 flex justify-start items-center pl-[20px]'}>
                             <img src={phone2} alt="" />
@@ -243,19 +243,15 @@ const Anasayfa = (props) => {
                         <div className={'flex flex-col gap-[15px] text-text2 mt-[20px] xl:text-lg sm:text-sm  lg:text-sm text-base 2xl:text-xl'}>
                             <div className={'flex flex-row items-center gap-2'}>
                                 <img className={'lg:w-7 xl:w-8'} src={shieldicon} alt="" />
-                                <h3 className={'font2'}>Alanında uzman diş ekibi</h3>
+                                <h3 className={'font2'}>Alanında uzman kadro</h3>
                             </div>
                             <div className={'flex flex-row items-center gap-2'}>
                                 <img className={'lg:w-7 xl:w-8'} src={shieldicon} alt="" />
-                                <h3 className={'font2'}>En güncel diş teknolojileri</h3>
+                                <h3 className={'font2'}>En güncel tedavi teknolojileri</h3>
                             </div>
                             <div className={'flex flex-row items-center gap-2'}>
                                 <img className={'lg:w-7 xl:w-8'} src={shieldicon} alt="" />
-                                <h3 className={'font2'}>Tüm tedavilerimizde rekabetçi fiyatlar</h3>
-                            </div>
-                            <div className={'flex flex-row items-center gap-2'}>
-                                <img className={'lg:w-7 xl:w-8'} src={shieldicon} alt="" />
-                                <h3 className={'font2'}>Hızlı ve kolay mudahale</h3>
+                                <h3 className={'font2'}>Kişiye özel çözüm önerileri</h3>
                             </div>
                             <div className={'bg-bg2 hover:bg-bg6 cursor-pointer lg:w-[200px]  sm:w-[200px] sm:h-[40px] xl:w-[250px] lg:h-[40px] h-[50px] xl:h-[55px] px-[10px] mt-[15px] flex justify-center items-center lg:py-[25px] xl:py-[30px] rounded-xl'}>
                                 {settings.map((setting, index) => (
@@ -273,9 +269,9 @@ const Anasayfa = (props) => {
                         <h1 className={'xl:text-5xl text-4xl 2xl:text-6xl font6 2xl:w-[800px] xl:w-[600px] lg:w-[500px] md:text-left text-center md:w-[400px] w-[330px]   whitespace-pre-wrap 2xl:text-5xl  break-words'}>
                             Endişelerinizi Geride Bırakın ve Daha Sağlıklı, Daha Kusursuz Bir Gülümsemenin Tadını Çıkarın
                         </h1>
-                        <h2 className={'font4 text-[#3C4959] mt-12 md:text-left text-center xl:text-xl lg:text-lg text-sm md:text-base w-[330px] md:w-[350px] xl:w-[500px] lg:w-[400px] 2xl:w-[600px] lea whitespace-pre-wrap break-words'}>
+                        {/* <h2 className={'font4 text-[#3C4959] mt-12 md:text-left text-center xl:text-xl lg:text-lg text-sm md:text-base w-[330px] md:w-[350px] xl:w-[500px] lg:w-[400px] 2xl:w-[600px] lea whitespace-pre-wrap break-words'}>
                             We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself.
-                        </h2>
+                        </h2> */}
                         <div className={'bg-bg2 lg:w-[200px] cursor-pointer hover:bg-bg6 sm:w-[200px] sm:h-[40px] xl:w-[250px] lg:h-[40px] h-[50px] xl:h-[55px] px-[15px] mt-[25px] flex justify-center items-center lg:py-[25px] xl:py-[30px] rounded-xl'}>
                             {settings.map((setting, index) => (
                                 <h2 target={"_blank"} href={`https://api.whatsapp.com/send/?phone=9${setting.whatsapp_phone}&text&type=phone_number&app_absent=0`} className={'text-white font2 text-base whitespace-nowrap px-14 lg:text-[14px] xl:text-[16px]'}>Hemen İletişime Geçin</h2>
@@ -437,10 +433,10 @@ const Anasayfa = (props) => {
                             <div className={'lg:w-[900px] md:w-[700px] w-[350px] xl:w-[1064px] h-fit pb-10 md:h-[392px] bg-[#374857] rounded-[30px]  xl:gap-[50px] flex justify-center items-center flex-col md:flex-row'}>
                                 <div className={'break-words flex flex-col 2xl:text-4xl xl:text-3xl md:text-2xl text-xl p-8 lg:text-4xl'}>
                                     <h2 className={'font1 md:w-[300px] lg:w-[500px]  flex flex-col text-white'}>
-                                        Gamadent ile oyunun kurallarını baştan yazıyoruz!
+                                        Gamadent ile doğru teşhis ve tedavi yaklaşımları 
                                     </h2>
                                     <h3 className={'font3 text-xl mt-[20px] text-white md:w-[300px] lg:w-[500px] !break-words'}>
-                                        We use only the best quality materials on the market in order to provide the best products to our patients.                                    </h3>
+                                        En güncel dental teknoloji kullanılarak oluşturulan bireysel doğru tedavi seçenekleri                               </h3>
                                     <div onClick={() => { handleRedirect('/iletisim') }} className={'bg-bg2 hover:bg-bg7 cursor-pointer w-[150px] h-[50px] mt-[20px] md:mt-[40px] px-[0px] flex justify-center items-center py-[20px] rounded-lg'}>
                                         <h2 className={'text-white font2 text-[16px]'}>İletişim Bilgisi</h2>
                                     </div>
